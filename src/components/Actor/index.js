@@ -11,7 +11,7 @@ const Actor = ({ name, character, imageUrl }) => (
     </Wrapper>
 );
 
-Actor.proptypes = {
+Actor.propTypes = {
     name: PropTypes.string,
     character: PropTypes.string,
     imageUrl: PropTypes.string
